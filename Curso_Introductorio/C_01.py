@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 # 
-# # Minimizing mean squared error. Excercise #1.
+# Ajuste y Error de mínimos cuadrados. Ejercicio # 021.
 # ------------------------------------------------------------------------------
-# Writed by : Michael Heredia Pérez
-# Date      : Mar/2018
+# Hecho por : Michael Heredia Pérez
+# Fecha     : Mar/2018
 # e-mail    : mherediap@unal.edu.co
-# Universidad Nacional de Colombia, Manizales field.
+# Universidad Nacional de Colombia, sede Manizales.
 # ------------------------------------------------------------------------------
 
-# Libraries.
+# Librerías
 import numpy as np 
 import matplotlib.pyplot as plt
 
-# Loading .dat file.
+# Cargo el archivo .dat
 X, Y = np.loadtxt("data_ej_01.dat", unpack = True)
 
-# %% ploting y as a x function
+# %% Grafico y como función de x.
 plt.figure()
 plt.plot(X, Y, 'b*')
 plt.grid()
@@ -23,17 +23,17 @@ plt.xlabel(r'$x$', fontsize = 15)
 plt.ylabel(r'$y$', fontsize = 15)
 plt.show()
 
-# Knowing the graph, the I asume the polynomial degree.
-n = 3 # polynomial grade.
+# Según el gráfico, asumo el grado del polinomio n.
+n = 3
 
-# Looking for the coeficientes.
+# Busco los coeficientes.
 coeffs_3 = np.polyfit(X, Y, n)
 print("The optimal coefficients are:", coeffs_3)
 
-# Seting up the polynomial values.
+# Busco los valores del polinomio ajustado.
 fit_3 = np.polyval(coeffs_3, X)
 
-# Ploting the adjusted polynomial and the points.
+# Grafico el polinomio ajustado y los puntos.
 plt.figure()
 plt.plot(X, Y, label = 'Data')
 plt.plot(X, fit_3, 'r--', label = 'Fit, N = {}'.format(n))
@@ -42,21 +42,21 @@ plt.xlabel(r'$x$', fontsize = 15)
 plt.ylabel(r'$y$', fontsize = 15)
 plt.show()
 
-# Computing the error 'r' for n = 3.
+# Computo el error 'r' para n = 3.
 r_3 = np.sum((fit_3 - Y)**2)
 print('The error for n = 3 is:', r_3)
 
-# %% Now, let's change the polynomioal degree n.
+# %% Ahora, cambio el grado del polionomio a n = 5.
 n = 5
 
-# Looking for the coeficientes.
+# Busco los coeficientes.
 coeffs_5 = np.polyfit(X, Y, n)
 print("The optimal coefficients are:", coeffs_5)
 
-# Seting up the polynomial values.
+# Ajusto los valores del polinomio.
 fit_5 = np.polyval(coeffs_5, X)
 
-# Ploting the adjusted polynomial and the points.
+# Vuelvo a hacer el gráfico con los valores para n = 5.
 plt.figure()
 plt.plot(X, Y, label = 'Data')
 plt.plot(X, fit_5, 'r--', label = 'Fit, N = {}'.format(n))
@@ -65,6 +65,8 @@ plt.xlabel(r'$x$', fontsize = 15)
 plt.ylabel(r'$y$', fontsize = 15)
 plt.show()
 
-# Computing the error 'r' for n = 3.
+# Computo el error 'r' para n = 5.
 r_5 = np.sum((fit_5 - Y)**2)
 print('The error for n = 5 is:', r_5)
+
+# Fin del código.
