@@ -1,4 +1,6 @@
-# Minimizing mean squared error. Excercise #1.
+# -*- coding: utf-8 -*-
+# 
+# # Minimizing mean squared error. Excercise #1.
 # ------------------------------------------------------------------------------
 # Writed by : Michael Heredia Pérez
 # Date      : Mar/2018

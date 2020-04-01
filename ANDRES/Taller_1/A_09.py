@@ -5,7 +5,7 @@
 # Escrito por : Michael Heredia Pérez
 # Fecha       : Jun/2019
 # e-mail      : mherediap@unal.edu.co
-# Universidad Nacional de Colombia, Manizales field.
+# Universidad Nacional de Colombia, sede Manizales.
 # ------------------------------------------------------------------------------
 # Este programa lee dos vectors (x1, y1, r1) y (x2, y2, r2), donde xi es la 
 # posición en x del centro de una cirfunferencia, y1 es la posición en y del 

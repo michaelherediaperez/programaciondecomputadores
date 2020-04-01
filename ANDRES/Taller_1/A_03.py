@@ -5,7 +5,7 @@
 # Escrito por : Michael Heredia Pérez
 # Fecha       : Jun/2019
 # e-mail      : mherediap@unal.edu.co
-# Universidad Nacional de Colombia, Manizales field.
+# Universidad Nacional de Colombia, sede Manizales.
 # ------------------------------------------------------------------------------
 # Este programa lee un número de 3 dígitos y determina si el número ocho (8) es 
 # un dígito del número ingresado.

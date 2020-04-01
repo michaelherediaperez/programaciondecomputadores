@@ -5,7 +5,7 @@
 # Escrito por : Michael Heredia Pérez
 # Fecha       : Jun/2019
 # e-mail      : mherediap@unal.edu.co
-# Universidad Nacional de Colombia, Manizales field.
+# Universidad Nacional de Colombia, sede Manizales.
 # ------------------------------------------------------------------------------
 # Este programa lee una lista y determina cuál es el segundo elemento más grande 
 # de dicha lista según el número de espacios que ocupa cada entrada.

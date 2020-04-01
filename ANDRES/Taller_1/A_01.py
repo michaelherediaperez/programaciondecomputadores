@@ -5,7 +5,7 @@
 # Escrito por : Michael Heredia Pérez
 # Fecha       : Jun/2019
 # e-mail      : mherediap@unal.edu.co
-# Universidad Nacional de Colombia, Manizales field.
+# Universidad Nacional de Colombia, sede Manizales.
 # ------------------------------------------------------------------------------
 # Este programa lee un número, entero o decimal, e imprime su valor absoluto.
 # Por definición, |x| = x cuando x > 0 y |x| = (-x) cuando x < 0 

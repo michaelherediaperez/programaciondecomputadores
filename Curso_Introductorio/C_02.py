@@ -1,4 +1,6 @@
-# Solving Eq systems. Excercise #2.
+# -*- coding: utf-8 -*-
+# 
+# # Solving Eq systems. Excercise #2.
 # ------------------------------------------------------------------------------
 # Writed by : Michael Heredia Pérez
 # Date      : Mar/2018

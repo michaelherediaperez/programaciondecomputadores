@@ -1,4 +1,6 @@
-# Derivative of a function. Excercise #3.
+# -*- coding: utf-8 -*-
+# 
+# # Derivative of a function. Excercise #3.
 # ------------------------------------------------------------------------------
 # Writed by : Michael Heredia Pérez
 # Date      : Mar/2018
