@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 
-# Ajuste y Error de mínimos cuadrados. Ejercicio # 021.
+# Ajuste y Error de mínimos cuadrados. Ejercicio # 01.
 # ------------------------------------------------------------------------------
 # Hecho por : Michael Heredia Pérez
 # Fecha     : Mar/2018
